@@ -1,0 +1,80 @@
+.search-results-empty {
+  color: #f70d1a;
+  font-size: 14px;
+}
+
+.search-results-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-results-list-item {
+  overflow: hidden;
+}
+
+.search-results-list-item + .search-results-list-item {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+@media (min-width: 1023px) {
+  .search-results-list-item + .search-results-list-item {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+}
+
+.search-results-list-item-link {
+  color: #333;
+  display: block;
+  float: left;
+  text-decoration: none;
+  width: 65%;
+}
+
+.search-results-list-item-title {
+  font-size: 16px;
+}
+
+@media (min-width: 1023px) {
+  .search-results-list-item-title {
+    font-size: 22px;
+  }
+}
+
+.search-results-list-item-author {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@media (min-width: 1023px) {
+  .search-results-list-item-author {
+    font-size: 16px;
+  }
+}
+
+.search-results-list-item-text {
+  font-size: 14px;
+}
+
+@media (min-width: 1023px) {
+  .search-results-list-item-text {
+    font-size: 18px;
+  }
+}
+
+.search-results-list-item-image-wrapper {
+  float: right;
+  width: 30%;
+}
+
+.search-results-list-item-image-wrapper:hover {
+  cursor: pointer;
+}
+
+.search-results-list-item-image {
+  width: 100%;
+}

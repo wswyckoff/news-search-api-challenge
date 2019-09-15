@@ -1,0 +1,24 @@
+.news-image-modal {
+  background: #000;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.news-image-modal-close {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.news-image-modal-image {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+}
